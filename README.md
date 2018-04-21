@@ -40,3 +40,15 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 dad40377f81a        api-server:latest   "/bin/sh -c 'go run …"   2 minutes ago       Up 2 minutes        0.0.0.0:8080->9000/tcp   unruffled_beaver
 $ docker stop [CONTAINER ID]
 ```
+
+# Heroku
+
+## Request
+```sh
+$ curl -XGET -H 'Content-Type:application/json' http://wantedly-webapp.herokuapp.com/
+```
+
+## Response
+```sh
+{"message":"Hello Wolrd!!"}
+```
