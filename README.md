@@ -43,12 +43,12 @@ $ docker stop [CONTAINER ID]
 
 # Heroku
 
-## Request
+Request
 ```sh
 $ curl -XGET -H 'Content-Type:application/json' http://wantedly-webapp.herokuapp.com/
 ```
 
-## Response
+Response
 ```sh
 {"message":"Hello Wolrd!!"}
 ```
